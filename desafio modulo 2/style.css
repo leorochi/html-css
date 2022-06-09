@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'droid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style:normal;
+}
+
+body{
+    background-color: #47E699;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #02E075, #006634);
+    padding: 15px;
+}
+
+header > h1{
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    text-shadow: 1px 1px 0px black;
+}
+
+header > p{
+    text-align: center;
+    color: white;
+}
+
+header > nav{
+    background-color:#016133;
+    padding: 8px;
+    margin-left: -15px;
+    box-shadow: 3px 3px 5px #011b0e;
+    margin-right: -15px;
+    margin-bottom: -10px;
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;;
+    margin-right: 20px;
+    
+}
+
+main{
+    background-color: white;
+    width: 900px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px #004222;
+}
+
+section > h1{
+    font-family: 'droid';
+    color: #006634;
+    font-size: 2em;
+}
+
+section >h2{
+    font-family: 'droid';
+    color:#006634;
+    font-size: 1.5em;
+    background-image:linear-gradient(to left, #ffffff,#9af3c8) ;
+}
+
+p{
+    text-indent: 40px;
+    font-size:1.2em;
+}
+
+span{
+    font-weight: bold;
+    color:#006634
+}
+
+img{
+    width: 100%;
+}
+
+.bug{
+    width: 30%;
+    margin-left:300px;
+}
+
+article{
+    background-color: #066d3a;
+    height: 450px;
+    padding: 15px;
+    margin-left:-15px;
+    margin-right: -15px;
+}
+
+article > iframe{
+    margin-left: 100px;
+
+}
+
+
+footer{
+    background-color: #c2f0d9;
+    border-radius: 7px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+footer > h3{
+    background-color: #01aa58;
+    color: white;
+    padding: 15px;
+    
+}
+
+h3{
+    margin-left: -15px;
+    margin-top: -15px;
+    margin-right: -15px;
+    border-radius: 5px;
+}
+
+li{
+    font-weight: bold;
+}

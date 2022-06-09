@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br";
+  <head>
+      <title>Projeto 2</title>
+      <meta charset="UTF-8"> <!--é uma tag meta utilizada para comunicar aos navegadores qual é o formato de codificação de caracteres utilizado naquele documento.-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Isso fornece ao navegador instruções sobre como controlar as dimensões e o dimensionamento da página.-->
+      <meta name="descrição" content="Primeiro exercicio"/> <!--// é uma tag meta utilizada para descrever uma breve descrição do site.-->
+      <style>
+
+      h1{
+        font-family: inherit;
+        text-align: center;
+      }
+
+      p.topo{
+        text-align: center;
+        font-family: inherit;
+        font-size: 20px;
+      }
+
+      p.nome{
+        font-family: sans-serif;
+        margin-left: 400px;
+        margin-top: 50px;
+      }
+
+      input.nome{
+        width: 400px;
+        margin-left: 450px;
+      }
+
+      p.email{
+        font-family: sans-serif;
+        margin-left: 400px;
+        margin-top: 30px;
+      }
+
+      input.email{
+        width: 400px;
+        margin-left: 450px;
+      }
+
+      p.idade{
+        font-family: sans-serif;
+        margin-left: 400px;
+        margin-top: 30px;
+      }
+
+      input.idade{
+        width: 400px;
+        margin-left: 450px;
+      }
+
+      p.role{
+        font-family: sans-serif;
+        margin-left: 400px;
+        margin-top: 30px;
+      }
+
+      select.select{
+        width: 407px;
+        margin-left: 450px;
+      }
+
+      p.friend{
+        font-family: sans-serif;
+        margin-left: 400px;
+        margin-top: 30px;
+      }
+
+      input.friend{
+        width: auto;
+        margin-left: 450px;
+      }
+
+      p.fcc{
+        font-family: sans-serif;
+        margin-left: 400px;
+        margin-top: 30px;
+      }
+
+      p.imp{
+        font-family: sans-serif;
+        margin-left: 400px;
+        margin-top: 30px;
+      }
+
+      input.imp{
+        width: auto;
+        margin-left: 450px;
+
+      }
+
+      p.txt{
+        font-family: sans-serif;
+        margin-left: 400px;
+        margin-top: 30px;
+      }
+
+      textarea{
+        width: auto;
+        margin-left: 450px;
+      }
+
+      input.botao{
+        width: 392px;
+        margin-left: 450px;
+        background-color: #7CCD7C;
+        height: 30px;
+        font-family: sans-serif;
+      }
+
+      </style>
+  </head>
+  <h1>freeCodeCamp Survey Form</h1>
+  <p class="topo">Thank you for taking the time to help us improve the plataform</p>
+  <form class="dados_form" action="projeto 2.html" method="get">
+      <p class="nome"> Name: </p>
+        <input type="text" class="nome" name="nome" placeholder="Enter your name">
+      <p class="email">E-mail:</p>
+        <input type="text" name="email" class="email" placeholder="Enter your e-mail">
+        <p class="idade">Age (optional)</p>
+          <input type="text" name="email" class="idade" placeholder="Age">
+        <p class="role">Which option best describes your current role?</p>
+      <select class="select">
+          <option value="student">Student</option>
+          <option value="job">Full Time Job</option>
+          <option value="learner">Full Time Learner</option>
+          <option value="say">Prefer not to say</option>
+          <option value="other">Other</option>
+      </select>
+      <p class="friend">Would you recommend freeCodeCamp to a friend?</p>
+        <input type="radio" name="Definitely" class="friend" value="Definitely"> Definitely <br>
+        <input type="radio" name="Definitely" class="friend" value="Definitely"> Maybe <br>
+        <input type="radio" name="Definitely" class="friend" value="Definitely"> Not sure
+      <p class="fcc">What is your favorite feature of freeCodeCamp?</p>
+        <select class="select">
+          <option value="challenges">Challenges</option>
+          <option value="challenges">Projects</option>
+          <option value="challenges">Community</option>
+          <option value="challenges">Open Source</option>
+        </select>
+      <p class="imp">What would you like to see improved? (Check all that apply)</p>
+        <input type="checkbox" class="imp"> Front-end Projects <br>
+        <input type="checkbox" class="imp"> Back-end Projects <br>
+        <input type="checkbox" class="imp"> Data Visualization <br>
+        <input type="checkbox" class="imp"> Challenges <br>
+        <input type="checkbox" class="imp"> Open Source Community <br>
+        <input type="checkbox" class="imp"> Gitter help rooms <br>
+        <input type="checkbox" class="imp"> Videos <br>
+        <input type="checkbox" class="imp"> City Meetups <br>
+        <input type="checkbox" class="imp"> Wiki <br>
+        <input type="checkbox" class="imp"> Forum <br>
+        <input type="checkbox" class="imp"> Additional Courses
+      <p class="txt">Any comments or suggestions?</p>
+        <textarea placeholder="Enter your comment" rows="10" cols="50" maxlength="40"></textarea> <br> <br>
+      <input type="submit" name="cadastro" value="Submit" class="botao">
+
+
+
+
+  </form>
+
+  </html>

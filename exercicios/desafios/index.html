@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="pt-br";
+  <head>
+      <title>Outras formatações</title>
+      <meta charset="UTF-8"> <!--é uma tag meta utilizada para comunicar aos navegadores qual é o formato de codificação de caracteres utilizado naquele documento.-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Isso fornece ao navegador instruções sobre como controlar as dimensões e o dimensionamento da página.-->
+      <meta name="descrição" content="Primeiro exercicio"/> <!--// é uma tag meta utilizada para descrever uma breve descrição do site.-->
+  </head>
+<body>
+<h1>Aprendendo a adaptar imagens</h1>
+<p>Vamos adaptar imagens para todos os dispositivos</p>
+<picture>
+  <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+  <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+  <img src="imagens/foto-g.png" alt="foto flexivel">
+</picture>
+<h1>Aprendendo a colocar midia de áudio</h1>
+<p>Aqui vamos aprender a colocar áudio no pagina</p>
+<audio type="metadata" autoplay controls>
+  <source src="midias/midia.mp3" type="audio/mpeg">
+</audio>
+<h1>Aprendendo a colocar vídeos local na página</h1>
+<p>Aprendendo a inserir vídeos no servidor local dentro da página</p>
+<video controls width="500" poster="imagens/piscina.jpg">
+  <source src="midias/midia2.mp4" type="video/mp4" target="_blank">
+</video>
+<h1>Colocando vídeos do youtube</h1>
+<p>Aqui vamos colocar um vídeo do Youtube na página</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pIr6TjG7Rko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

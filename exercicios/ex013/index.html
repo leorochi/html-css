@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="pt-br";
+  <head>
+      <title>Outras formatações</title>
+      <meta charset="UTF-8"> <!--é uma tag meta utilizada para comunicar aos navegadores qual é o formato de codificação de caracteres utilizado naquele documento.-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Isso fornece ao navegador instruções sobre como controlar as dimensões e o dimensionamento da página.-->
+      <meta name="descrição" content="Primeiro exercicio"/> <!--// é uma tag meta utilizada para descrever uma breve descrição do site.-->
+      <style>
+
+        body{
+          background-image: linear-gradient(to right, #0FC2C0, #0CABA8, #008F8C);
+        }
+
+        main{
+          background-color: white;
+          width: 600px;
+          margin: auto;
+          border-radius: 8px;
+          padding: 30px;
+          box-shadow: 5px 5px 10px #005554;
+        }
+
+        h1{
+          text-align: center;
+          color: #023535;
+          font-family: Arial, Helvetica, sans-serif;
+          /* 
+          Medidas absolutas
+          cm, mm, in, px, pt, pc
+          
+          Medidas relativas
+          em, ex, rem, vw, vh, %
+          16px geralmente = 1em 
+          */
+
+          /*
+          shorthand font
+          - font-style --> font-weight --> font-size --> font-family // ordem para font
+
+          font-family: 'Work Sans', sans-serif;
+          font-weight: lighter normal bold bolder; // peso da fonte
+          font-size: 1em;
+          font-style: italic;
+          */
+          text-shadow: 1px 1px 0px #011f1f; 
+        }
+
+        p{
+          font-size:22px;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          text-align: center;
+        }
+      </style>
+  </head>
+<body>
+
+  <main>
+    <h1>Aprendendo a adaptar imagens</h1>
+    <p>Vamos adaptar imagens para todos os dispositivos</p>
+    <picture>
+      <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+      <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+      <img src="imagens/foto-g.png" width="500"alt="foto flexivel">
+    </picture>
+    <h1>Aprendendo a colocar midia de áudio</h1>
+    <p>Aqui vamos aprender a colocar áudio no pagina</p>
+    <audio type="metadata" autoplay controls>
+      <source src="midias/midia.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Aprendendo a colocar vídeos local na página</h1>
+    <p>Aprendendo a inserir vídeos no servidor local dentro da página</p>
+    <video controls width="500" poster="imagens/piscina.jpg" <a href="desafio3.html" target="_blank"</a>>
+      <source src="midias/midia2.mp4" type="video/mp4" >
+    </video>
+    <h1>Colocando vídeos do youtube</h1>
+    <p>Aqui vamos colocar um vídeo do Youtube na página</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pIr6TjG7Rko" <a href="index.html" target="_blank"title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </main>
+
+</body>
+</html>

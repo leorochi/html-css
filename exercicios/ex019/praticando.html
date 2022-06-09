@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando Pseudoclasses</title>
+    <style>
+        body{
+            background-image: linear-gradient(to right, aqua, blue);
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover{
+            color:red;
+        }
+
+        div:hover > p{
+            display:block;
+            color: black;
+            
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <h1>Pseudoclasses</h1>
+    <div>
+        <h2>Exemplo 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sit similique illo consectetur, labore unde reprehenderit quibusdam officia, sapiente sint perferendis dicta libero aliquam nostrum, voluptatem deleniti explicabo officiis velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur perferendis libero unde est repudiandae iste impedit nobis quas nesciunt maxime. Ipsa laudantium at nihil esse, temporibus quis possimus eveniet cum?</p>
+    </div>
+    
+    
+    
+    <div>
+        <h2>Exemplo 2</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus quae rem molestias libero quo cupiditate tempora ex sunt fugit id rerum ipsam, voluptatum, iusto impedit odit, atque dolorem qui vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor enim quia recusandae architecto voluptates deleniti totam aperiam fugiat quisquam earum maxime vitae deserunt rerum voluptatibus doloribus expedita soluta, sint dolorum.</p>
+    </div>
+    
+    <div>
+        <h2>Exemplo 3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita et consequatur aut aspernatur aliquid quia repellat architecto eligendi fugiat, amet voluptatem, fugit rem? Cumque voluptate illo voluptatem vitae qui velit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae a quia ad corrupti eius itaque repellendus nisi. Ad ipsam eveniet amet fuga, commodi quod, iure totam ea est possimus id.</p>
+    </div>
+    
+</body>
+</html>
